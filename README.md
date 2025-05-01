@@ -2,6 +2,9 @@
 
 YouTube Transcription Downloader is a command-line application written in Rust to download transcriptions from YouTube videos.
 
+![Windows Screenshot](installer/Windows/Windows-Screenshot.jpg)
+
+
 ## Features
 
 - Download transcriptions from individual YouTube videos.
@@ -9,6 +12,12 @@ YouTube Transcription Downloader is a command-line application written in Rust t
 - Download transcriptions from all videos in a YouTube channel.
 - Choose the transcription language or use automatic detection.
 - Formatted transcriptions with timestamps.
+
+## Todo list
+
+- Mac version
+- Linux version
+- use of Google API keys to download more than 30 videos simultaneosly
 
 ## Prerequisites
 
