@@ -1,0 +1,26 @@
+[package]
+name = "YT_Transcription_Download"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vinicius Buscacio"]
+description = "A YouTube transcription downloader."
+license = "MIT"
+repository = "https://github.com/viniciusbuscacio/yt_transcription_downloader"
+readme = "README.md"
+keywords = ["youtube", "transcription", "downloader"]
+categories = ["command-line-utilities"]
+publish = false
+
+
+[dependencies]
+ytranscript = "0.1.0"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+colored = "2.0.0"
+reqwest = { version = "0.11", features = ["json"] }
+regex = "1.10.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
